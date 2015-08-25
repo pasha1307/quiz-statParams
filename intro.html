@@ -1,0 +1,14 @@
+<div class="progress">
+  <div class="
+              {{ ($index === activeQuestion) ? 'on' : 'off' }}
+              {{ (q.questionState === 'answered') ? 'answered' : 'unanswered' }}
+              {{ (q.correctness === 'correct') ? 'correct' : 'incorrect'}}
+              "
+       ng-repeat="q in quizQuestions">
+  </div>
+</div>
+<div class="intro {{ (activeQuestion > -1) ? 'inactive' : 'active'}}">
+  <h2>Welcome</h2>
+  <p>Click to begin</p>
+  <p class="btn" ng-click="activeQuestion = 0">Begin</p>
+</div>

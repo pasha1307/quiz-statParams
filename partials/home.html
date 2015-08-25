@@ -1,0 +1,12 @@
+<div class="row">
+ <h2>Porgress; Intro; Questions</h2>
+ <div class="col-md-5" >
+  <ul ng-repeat="q in quiz">
+   <a ng-href = "#/home/{{q.id}}"><li>{{q.question}}</li></a>
+ </ul>
+</div>
+
+<div class="col col-md-7">
+  <div ui-view="costa"></div>
+</div>
+</div>

@@ -1,0 +1,30 @@
+.question.answered {
+  cursor: default;
+}
+.question.unanswered {
+  cursor: pointer;
+}
+.thumbnail {
+  width: 210px;
+}
+.thumbnail.image {
+  background-repeat: no-repeat;
+  padding: 0px;
+  background-position: 0px center;
+}
+.selected {
+  border: 3px solid yellow;
+}
+.correct {
+  border: 3px solid green;
+}
+.bdg {
+  border: 6px solid red;
+  color: crimson;
+}
+a.qselected li {
+  color:brown;
+  list-style:armenian;
+  font-style: italic;
+
+}
